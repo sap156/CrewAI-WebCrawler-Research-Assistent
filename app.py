@@ -155,7 +155,7 @@ if submitted:
             st.download_button(
                 label="📥 Download Report",
                 data=report_content,
-                file_name="final_report.md",
+                file_name="final_report.txt",
                 mime="text/plain"
             )
         except FileNotFoundError:

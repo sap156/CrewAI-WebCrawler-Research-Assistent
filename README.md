@@ -33,7 +33,7 @@ Each agent uses an LLM model to process and understand content, working in a seq
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/web-crawler-research-assistant.git
+git clone https://github.com/sap156/CrewAI-WebCrawler-Research-Assistent.git
 cd web-crawler-research-assistant
 ```
 

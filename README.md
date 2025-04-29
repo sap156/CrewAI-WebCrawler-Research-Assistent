@@ -2,6 +2,13 @@
 
 An intelligent research assistant powered by CrewAI that combines web scraping, internet research, and automated report generation to help users gather and analyze information efficiently.
 
+CrewAI is a cutting-edge framework for orchestrating role-based AI agents that work together to accomplish complex tasks. In this application, it coordinates three specialized agents:
+- A Web Scraper agent that extracts content from specified URLs
+- A Research agent that performs intelligent internet searches
+- A Writer agent that synthesizes information into comprehensive reports
+
+Each agent uses an LLM model to process and understand content, working in a sequential workflow to deliver thorough research results.
+
 <img width="743" alt="Screenshot 2025-04-28 at 10 14 01 PM" src="https://github.com/user-attachments/assets/b64b076c-a7c1-4dc9-b2ac-cbeeafb07331" />
 
 ## Features 🚀

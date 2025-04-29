@@ -1,7 +1,7 @@
 import os
 import streamlit as st
 from dotenv import load_dotenv
-from app import Agent, Task, Crew, Process
+from crewai import Agent, Task, Crew, Process
 from crewai_tools import ScrapeWebsiteTool, BraveSearchTool, FileWriterTool
 
 # Initialize environment variables for API keys and configurations

@@ -2,6 +2,8 @@
 
 An intelligent research assistant powered by CrewAI that combines web scraping, internet research, and automated report generation to help users gather and analyze information efficiently.
 
+<img width="743" alt="Screenshot 2025-04-28 at 10 14 01 PM" src="https://github.com/user-attachments/assets/b64b076c-a7c1-4dc9-b2ac-cbeeafb07331" />
+
 ## Features 🚀
 
 - **Web Scraping**: Extracts content from any specified website URL

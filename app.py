@@ -1,7 +1,7 @@
 import os
 import streamlit as st
 from dotenv import load_dotenv
-from crewai import Agent, Task, Crew, Process
+from app import Agent, Task, Crew, Process
 from crewai_tools import ScrapeWebsiteTool, BraveSearchTool, FileWriterTool
 
 # Initialize environment variables for API keys and configurations
@@ -155,7 +155,7 @@ if submitted:
             st.download_button(
                 label="📥 Download Report",
                 data=report_content,
-                file_name="final_report.txt",
+                file_name="final_report.md",
                 mime="text/plain"
             )
         except FileNotFoundError:
